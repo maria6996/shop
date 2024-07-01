@@ -1,0 +1,31 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 26 Jun 2024 11:56:42 at https://nouthemes.net/html/martfury/homepage-4.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://nouthemes.net/html/martfury/homepage-4.html -O1 "C:\Users\maryam\Desktop\theme\martfury" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:13:48	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/shop-grid.html (from https://nouthemes.net/html/martfury/homepage-4.html)
+12:13:49	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/index (from https://nouthemes.net/html/martfury/index.html)
+12:13:49	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/shop-default (from https://nouthemes.net/html/martfury/index.html)
+12:13:49	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/policy.html (from https://nouthemes.net/html/martfury/index.html)
+12:13:49	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/term-condition.html (from https://nouthemes.net/html/martfury/index.html)
+12:13:49	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/return.html (from https://nouthemes.net/html/martfury/index.html)
+12:13:49	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/affilate.html (from https://nouthemes.net/html/martfury/index.html)
+12:13:49	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/contact.html (from https://nouthemes.net/html/martfury/index.html)
+12:13:49	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/our-press.html (from https://nouthemes.net/html/martfury/index.html)
+12:13:49	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/shop.html (from https://nouthemes.net/html/martfury/index.html)
+12:13:49	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/.ps-carousel--deal-hot (from https://nouthemes.net/html/martfury/homepage-2.html)
+12:13:49	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/.ps-carousel--testimonials (from https://nouthemes.net/html/martfury/homepage-2.html)
+12:13:52	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/homepage-medicine.html (from https://nouthemes.net/html/martfury/home-medical.html)
+12:13:52	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/img/products/detail/fullwidth/4.jpg (from https://nouthemes.net/html/martfury/product-full-content.html)
+12:13:52	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/recent-viewed-product.html (from https://nouthemes.net/html/martfury/checkout-2.html)
+12:13:52	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/wishlist.html (from https://nouthemes.net/html/martfury/checkout-2.html)
+12:13:52	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/checkout-2.htl (from https://nouthemes.net/html/martfury/shipping.html)
+12:13:52	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/payment (from https://nouthemes.net/html/martfury/shipping.html)
+12:13:52	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/js/chart.js (from https://nouthemes.net/html/martfury/vendor-dashboard-pro.html)
+12:13:52	Error: 	"Not Found" (404) at link https://nouthemes.net/html/martfury/edit-address.html (from https://nouthemes.net/html/martfury/addresses.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 17 minutes 13 seconds : 817 links scanned, 796 files written (40079017 bytes overall) [30545818 bytes received at 29570 bytes/sec], 13222530 bytes transferred using HTTP compression in 152 files, ratio 14%, 32.6 requests per connection
+(20 errors, 0 warnings, 0 messages)
