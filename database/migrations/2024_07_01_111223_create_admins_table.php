@@ -13,6 +13,17 @@ return new class extends Migration
     {
         Schema::create('admins', function (Blueprint $table) {
             $table->id();
+
+            $table->increments('id');
+            $table->string("first_name",50)->nullable();
+            $table->string("last_name",50)->nullable();
+            $table->string('email',60)->unique();
+            $table->string('mobile',11)->unique();
+            $table->string('code_melli',10)->unique();
+            $table->string('password');
+            $table->boolean("status")->default(0);
+            $table->rememberToken();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

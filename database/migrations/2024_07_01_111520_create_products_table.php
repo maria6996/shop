@@ -13,6 +13,16 @@ return new class extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('en_name');
+            $table->string('slug');
+            $table->string('serialnumber')->nullable();
+            $table->foreign('media_id')->references('id')->on('medias')->onDelete('set null');
+            $table->integer('view_count')->default(0);
+            $table->foreign('creator_id')->references('id')->on('users')->onDelete('set null');
+            $table->integer('brand_id')->useCurrent('id')->on('brands')->onDelete('set null');
+            $table->text('short_description')->nullable();
+            $table->longText('long_description')->nullable();
             $table->timestamps();
         });
     }

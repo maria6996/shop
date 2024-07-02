@@ -11,9 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('warranties', function (Blueprint $table) {
+        Schema::create('brand', function (Blueprint $table) {
             $table->id();
-
+            $table->string('name');
+            $table->integer('media_id')->nullable();
+            $table->foreign('media_id')->references('id')->on('media');
             $table->timestamps();
         });
     }
@@ -23,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('warranties');
+        Schema::dropIfExists('brand');
     }
 };
